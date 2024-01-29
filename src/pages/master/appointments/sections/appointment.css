@@ -1,0 +1,18 @@
+/* textfield css */
+InovuaReactDataGrid__cell__editor InovuaReactDataGrid__cell__editor--select.custom-textfield input{ height: 4px; }
+.custom-textfield-common input{height: 4px; width: 90px;}
+.custom-textfield input{ height: 4px; width: 90px; }
+
+/* margin css  */
+.marginLeft{margin-left: 20px;}
+
+.custom-button{height: 30px;}
+
+/* autocomplete component */
+.appointment-main-container .error-hide-tender-no .MuiInputBase-input {height: 4px;}
+.appointment-main-container .common-auto .MuiInputBase-input {height: 4px;}
+
+/* zod error message none css */
+.error-hide-tender-no p{display: none;}
+
+

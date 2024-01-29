@@ -1,0 +1,12 @@
+
+.common-auto .MuiInputBase-input {height: 4px;}
+#textfield-margin{padding-top: 6px;}
+.custom-button{height: 30px;width: 95px;margin-left: 2rem;}
+.address-btn-left{margin-left: 10px; }
+.custom-button-load{height: 30px;width: 95px;}
+.disabled-textfield {background-color: #f0f0f0; }
+.disabled-textfield :hover{cursor: no-drop;}
+.custom-button.save-button {background-color: #f0f0f0;}  
+
+.custom-button.disabled:hover {cursor: no-drop;}
+

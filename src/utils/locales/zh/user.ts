@@ -1,0 +1,20 @@
+export const user = {
+	Username: '用戶名',
+	Password: '密碼',
+	FirstName: '名',
+	LastName: '姓',
+	Company: '公司',
+	Email: '電子郵件',
+	'Caps-lock-on': '大寫鎖定',
+	Login: '登錄',
+	'Create-account': '創建賬戶',
+	UserProfile: '用戶資料',
+	OldPassword: '舊密碼',
+	NewPassword: '新密碼',
+	ConfirmPassword: '確認密碼',
+	Avatar: '阿凡達',
+	Personal: '個人的',
+	DOB: '出生日期',
+	MobileNumber: '手機號碼',
+	Name: '姓名'
+};

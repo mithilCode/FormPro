@@ -1,0 +1,139 @@
+{
+	"compilerOptions": {
+	  "baseUrl": "./src",
+	  "target": "esnext",
+	  "lib": ["dom", "dom.iterable", "esnext"],
+	  "allowJs": true,
+	  "skipLibCheck": true,
+	  "esModuleInterop": true,
+	  "allowSyntheticDefaultImports": true,
+	  "strict": true,
+	  "forceConsistentCasingInFileNames": true,
+	  "noFallthroughCasesInSwitch": true,
+	  "module": "esnext",
+	  "moduleResolution": "node",
+	  "resolveJsonModule": true,
+	  "isolatedModules": true,
+	  "noEmit": true,
+	  "jsx": "react-jsx",
+	  // custom config
+	  "noUnusedLocals": false, // Change true to false
+	  "noImplicitAny": true,
+	  "noImplicitThis": true,
+	  "strictNullChecks": true,
+	  "types": ["node", "webpack-env"], //aded line  remove - , "jest"
+	//  "typeRoots": ["./types"], //added
+	  "downlevelIteration": true,
+	  "noUnusedParameters": false,
+// remove	  "sourceMap": true,
+// remove 	  "plugins": [
+	// 	  {
+	// 		  "name": "typescript-styled-plugin"
+	// 	  }
+	//   ],
+// remove	  "outDir": "./dist/",
+	},
+	"include": ["src"],
+	"extends": "./tsconfig.paths.json"	
+  }
+
+// {
+// 	"compilerOptions": {
+// 		"baseUrl": "./src/",
+// 		"target": "esnext",
+// 		"outDir": "./dist/",
+// 		"lib": ["dom", "dom.iterable", "esnext"],
+// 		"allowJs": true,
+// 		"skipLibCheck": true,
+// 		"esModuleInterop": true,
+// 		"allowSyntheticDefaultImports": true,
+// 		"strict": true,
+// 		"forceConsistentCasingInFileNames": true,
+// 		"noFallthroughCasesInSwitch": true,
+// 		"module": "esnext",
+// 		"moduleResolution": "node",
+// 		"resolveJsonModule": true,
+// 		"isolatedModules": true,
+// 		"noEmit": true,
+// 		"jsx": "react-jsx",
+// 		// "jsx": "preserve",
+// 		// antd pro
+// 		// "importHelpers": true,
+// 		"sourceMap": true,
+// 		// "plugins": [
+// 		// 	{
+// 		// 		"name": "typescript-styled-plugin"
+// 		// 	}
+// 		// ],
+// 		"typeRoots": ["./src/types"],
+// 		// "experimentalDecorators": true,
+// 	},
+// 	// "include": [ "src" ],
+// 	//"include": ["./**/*.d.ts", "./**/*.ts", "./**/*.tsx"],
+// 	"extends": "./tsconfig.paths.json"
+// }
+
+
+// {
+// 	"compilerOptions": {
+// 	  "target": "es5",
+// 	  "lib": ["dom", "dom.iterable", "esnext"],
+// 	  "allowJs": true,
+// 	  "skipLibCheck": true,
+// 	  "esModuleInterop": true,
+// 	  "allowSyntheticDefaultImports": true,
+// 	  "strict": true,
+// 	  "forceConsistentCasingInFileNames": true,
+// 	  "noFallthroughCasesInSwitch": true,
+// 	  "module": "esnext",
+// 	  "moduleResolution": "node",
+// 	  "resolveJsonModule": true,
+// 	  "isolatedModules": true,
+// 	  "noEmit": true,
+// 	  "jsx": "react-jsx",
+// 	  // custom config
+// 	  "noUnusedLocals": true,
+// 	  "noImplicitAny": true,
+// 	  "noImplicitThis": true,
+// 	  "strictNullChecks": true,
+// 	  "types": ["node"], // , "jest" , "webpack-env"
+// 	  "typeRoots": ["./types"],
+// 	  "baseUrl": "src",
+// 	  "downlevelIteration": true
+// 	},
+// 	"include": ["src"]
+//   }
+// {
+// 	"compilerOptions": {
+// 		"baseUrl": "./src/",
+// 		"target": "esnext",
+// 		"outDir": "./dist/",
+// 		"lib": ["dom", "dom.iterable", "esnext"],
+// 		"allowJs": true,
+// 		"skipLibCheck": true,
+// 		"esModuleInterop": true,
+// 		"allowSyntheticDefaultImports": true,
+// 		"strict": true,
+// 		"forceConsistentCasingInFileNames": true,
+// 		"noFallthroughCasesInSwitch": true,
+// 		"module": "esnext",
+// 		"moduleResolution": "node",
+// 		"resolveJsonModule": true,
+// 		"isolatedModules": true,
+// 		"noEmit": true,
+// 		"jsx": "react-jsx",
+// 		// "jsx": "preserve",
+// 		// antd pro
+// 		// "importHelpers": true,
+// 		"sourceMap": true,
+// 		"plugins": [
+// 			{
+// 				"name": "typescript-styled-plugin"
+// 			}
+// 		]
+// 		// "experimentalDecorators": true,
+// 	},
+// 	// "include": [ "src" ],
+// 	//"include": ["./**/*.d.ts", "./**/*.ts", "./**/*.tsx"],
+// 	"extends": "./tsconfig.paths.json"
+// }

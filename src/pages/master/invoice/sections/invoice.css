@@ -1,0 +1,24 @@
+
+.custom-textfield input{ height: 4px;  }
+#textfield-margin{margin: 0 !important;padding-top: 11px;}
+.custom-button{height: 30px;width: 80px;}
+/* Footer Button CSS */
+.footer-main-dev-button{display: flex;justify-content: space-between; width: 1060px; margin-bottom: 5px; align-items: center; }
+.marginTop{margin-top: 5px;}
+.marginTop{margin-top: 10px;} 
+.dropdown-change{height: 25px;width: 140px;}
+.MuiPaper-root .MuiTabs-root {min-height: 17px !important;}
+.MuiTab-root {min-height: 13px !important;padding : 6px 16px;}
+.MuiTab-root.Mui-selected {background-color: #c8ddfd !important;}
+.MuiTabs-indicator {display: none;}
+.fieldset-size{width: 100%; padding-top:8px !important ;margin-bottom:4px;border: 1px solid #d9cbcbbf;border-radius: 5px;border-bottom: none; display: flex; justify-content: center; align-items: center;}
+.fieldset-size legend{color: red;font-weight: bolder; position: relative;}
+.details-div{width: 95%;}
+.disabled-textfield {background-color: #f0f0f0; }
+.disabled-textfield :hover{cursor: no-drop;}
+:disabled {color: black !important;-webkit-text-fill-color:black !important;}
+.custom-button.save-button {background-color: #f0f0f0;}
+ .custom-button.disabled:hover {cursor: no-drop;}
+ #time-picker .MuiInputAdornment-root .MuiSvgIcon-root{display: none;}
+ #date-picker .MuiInputAdornment-root{margin-left: 0px !important;}
+ .MuiInputBase-root-MuiOutlinedInput-root .MuiOutlinedInput-root{padding: 0px !important}

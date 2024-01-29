@@ -1,0 +1,34 @@
+.table-scroll {
+	display: block;
+	empty-cells: show;
+	border-spacing: 0;
+}
+.table-scroll thead {
+	background-color: #f1f1f1;
+	position: relative;
+	display: block;
+	width: 100%;
+}
+.table-scroll tbody {
+	display: block;
+	position: relative;
+	width: 100%;
+	overflow-y: scroll;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	height: 185px;
+}
+.table-scroll tr {
+	width: 100%;
+	display: flex;
+}
+.table-scroll td,
+.table-scroll th {
+	flex-basis: 100%;
+	flex-grow: 2;
+	display: block;
+	text-align: left;
+	padding: 12px 4px !important;
+}
+.MuiModal-backdrop {
+	background-color: transparent !important;
+}

@@ -1,0 +1,82 @@
+
+.custom-textfield input {
+	height: 4px;
+}
+
+#tenderLot-container .common-auto .MuiInputBase-input {
+	height: 4px;
+}
+
+
+#textfield-margin {
+	padding-top: 6px;
+}
+
+.custom-button {
+	height: 30px;
+	width: 95px;
+	/* margin-left: 2rem; */
+}
+.address-btn {
+	margin-left: 0px;
+}
+
+.custom-button-load {
+	height: 28px;
+	width: 80px;
+}
+
+.disabled-textfield {
+	background-color: #f0f0f0;
+}
+.disabled-textfield :hover {
+	cursor: no-drop;
+}
+:disabled {
+	color: black !important;
+	-webkit-text-fill-color: black !important;
+}
+
+.custom-button.save-button {
+	background-color: #f0f0f0;
+}
+
+
+.custom-button.disabled:hover {
+	cursor: no-drop;
+}
+
+
+.footer-main-dev-button {
+	display: flex;
+	justify-content: space-between;
+	width: 45%;
+	margin-top: 5px;
+}
+
+
+.fieldset-size-packet {
+	width: 100%;
+	padding-top: 8px !important;
+	margin-bottom: 4px;
+	border: 1px solid #d9cbcbbf;
+	border-radius: 5px;
+	border-bottom: none;
+}
+.fieldset-size-invoice legend {
+	color: red;
+	font-weight: bolder;
+}
+
+/* checkBox css */
+.checkbox-box {
+	width: 80%;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.MuiTypography-root{
+	font-weight: 600 !important;
+}
+

@@ -1,0 +1,88 @@
+/* #scroll-container{width: 1190px;} */
+.custom-textfieldd{margin-left: 11px;}
+.textfield{margin-left: 11px;}
+.textfieldbirth{margin-left: 7px;}
+.textfieldh{margin-left: 19px;}
+.textfieldc{margin-left: 9px;}
+.textfieldmiddle{margin-left: 4px;}
+.textfieldh input,.textfieldc input,.custom-textfielddd input,.textfieldpass input,.custom-textfielkycstatus input,.custom-textfieldesig input,.textfieldleave input,.textfieldmiddle input,.textfieldbirth input{height: 4px;}
+/* .custom-textfieldesig{margin-left: 11px;} */
+.custom-textfielkycstatus{margin-left: 11px}
+.custom-textfielkyc{margin-left: 11px;}
+/* .custom-textfielkyc input{height: 30px;} */
+.selectedAddress{margin-left: 3px;height: 23px;min-width: 1px;}
+.selected{margin-left: -34px;margin-top: 124px;height: 23px;min-width: 1px;}
+.textfieldmar {margin-left: 10px;}
+.textfieldlan {  margin-left: 9px;}
+.custom-textfieldlic{margin-left: 6px;}
+.textfieldFuel{margin-left: 2px;}
+.custom-textfield input,.custom-textfieldd input,.textfield input,.textfield1 input,.textfield2 input,.textfield3 input,.textfieldFuel input,.textfieldlan input,.textfieldmar input,.custom-textfieldlic input,.custom-textfielde input{height: 4px;}
+.textfield2{margin-left: 48px;}
+.label{margin-left: 10px;}
+.typo-field-left{margin-left: 19px; }
+.textfieldm{margin-left: -47px ;}
+.mobile-field-left{margin-left: -54px;}
+.left_field{margin-left: 38px;}
+.MuiPaper-root .MuiTabs-root {min-height: 20px !important;}
+.MuiTab-root {min-height: 15px !important;padding : 8px 16px;}
+.MuiTab-root.Mui-selected {background-color: #c8ddfd !important;}
+.MuiTabs-indicator {height: 2px !important;text-decoration: none;}
+.disabled-textfield {background-color: #f0f0f0;}
+:disabled {color: black !important;-webkit-text-fill-color:black !important;}
+/* .custom-textfield {color: #000000;} */
+.disabled-textfield :hover{cursor: no-drop;}
+/* fieldSet and legend css */
+/* #fieldset-size{border: 1px solid rgb(217 203 203 / 75%);border-radius: 5px; color: black;} */
+/* #fieldset-size-second{border: 1px solid rgb(217 203 203 / 75%);padding-top:0px;border-radius: 5px;} */
+#fieldset-size{padding-top:8px !important ;margin-bottom: 4px;border: 1px solid rgb(217 203 203 / 75%);border-radius: 5px;border-bottom: none;}
+#fieldset-size legend{color: red;font-weight: bolder; border: none;}
+.fieldset-size legend{color: red;font-weight: bolder; border: none;}
+#fieldset-size-second legend{color: red;font-weight: bolder;}
+#fieldset-size-second{border: 1px solid rgb(217 203 203 / 75%);padding-top:0px;border-radius: 5px;border-bottom: none;}
+#fieldset-size-third{border: 1px solid rgb(217 203 203 / 75%);padding-top:0px;border-radius: 5px;border-bottom: none;}
+.fieldset-size-fourth{border: 1px solid rgb(217 203 203 / 75%);padding-top:0px;border-radius: 5px;border-bottom: none;}
+/* .fieldset-size-third legend{color: red;font-weight: bolder;} */
+.fieldset-size,.fieldset-size-second {border: 1px solid hsla(0,16%,82%,.75);border-radius: 5px;margin-left: 0rem;border-bottom: none;}
+/* margin css */
+.marginTop{margin-top: -4px;}
+.marginTopGrid{margin-top: 5px;}
+.marginTopButton{margin-top: 5px;}
+.marginLeft{margin-left: 5px;}
+.marginRightone{margin-right: 44px;}
+/*mui input css remove property */
+.css-125mmfg-MuiGrid-root>.MuiGrid-item{padding-left: 0 !important;}
+
+/* disabel spiner for number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {display: none;}
+input[type=number] {-moz-appearance: textfield;}
+
+/* upload photo section css */
+.upload-photo-section{padding: 10px;display: flex;flex-direction: column;align-items: center;justify-content: space-between;width: 160px;height: 170px;}
+.address{position: relative;float: right;top: -147px;left: -143px;}
+#Address-div-blank{position: absolute; width: 120px;height: fit-content; border-radius: 2px; text-align: center;} 
+.css-1laqsz7-MuiInputAdornment-root {margin-left: -37px;}
+.css-rl6ken-MuiButtonBase-root-MuiIconButton-root {height: 30px;width: 30px;}
+.camleft{margin-left: -24px;}
+.address-btn-left{margin-left:30px}
+.address-btn-leftp{margin-left: 10px;}
+.textfieldleave{margin-left: -2px;}
+.designation{margin-left: 4px; margin-top: -4px }
+.designationtext{ margin-top: -8px }
+.custom-button{height: 30px;width: 80px;margin-left: 5px;}
+.css-s6130 {box-sizing: border-box;display: flex;flex-flow: wrap;margin-top: -6px;width: calc(100% + 4px);margin-left: -4px;}
+.lastname{   margin-left: -16px}
+.css-4icsvq {padding: 10.5px 0px 10.5px 12px;}
+.css-1lalplm .MuiOutlinedInput-root .MuiAutocomplete-input {padding: 7.5px 0px 7.5px 0px;}
+.commentstop{margin-top: -36px; }
+.MuiGrid-root:focus-visible,
+.MuiPaper-root:focus-visible,
+.MuiContainer-root:focus-visible {
+	outline: none;
+}
+.footer-main-dev-button{display: flex;justify-content: space-between; width: 460px; margin-top: 5px; }
+.zodErrorHide p{
+    display: none;
+}
+
+

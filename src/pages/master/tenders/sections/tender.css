@@ -1,0 +1,25 @@
+/* textfield css */
+.custom-textfield input{ height: 4px;  }
+.custom-textfield-date input{height: 4px; width: 90px;}
+.custom-textfield-time input{height: 4px; width: 90px;}
+
+/* textarea css */
+/* .tender-main-container .MuiOutlinedInput-root{padding-top:4px; padding-bottom: 4px;} */
+.tender-main-container .comment-css input{height: 4px; padding-top: 0px; padding-bottom:0px;}
+
+/* margin css */
+.marginLeft{margin-left: 20px;}
+
+.custom-button{height: 30px;}
+
+/* zod error message none css */
+.error-hide-supplier p{display: none;}
+.error-hide-type p{display: none; }
+
+/* height set to autoComplete   */
+.tender-main-container .error-hide-supplier .MuiInputBase-input {height: 4px;}
+.tender-main-container .error-hide-type .MuiInputBase-input {height: 4px;}
+.tender-main-container .country-auto .MuiInputBase-input {height: 4px; }
+.tender-main-container .city-auto .MuiInputBase-input {height: 4px;}
+
+

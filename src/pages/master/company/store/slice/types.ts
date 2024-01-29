@@ -1,0 +1,42 @@
+import { KeyedObject } from 'types/root';
+
+// ==============================|| COMPANYS TYPES  ||============================== //
+
+/* --- STATE --- */
+export type companysState = {
+	getLoading?: boolean;
+	getError?: KeyedObject | null;
+	getSuccess?: KeyedObject | null;
+
+	loading?: boolean;
+
+	addError?: KeyedObject | null;
+	addSuccess?: KeyedObject | null;
+
+	editError?: KeyedObject | null;
+	editSuccess?: KeyedObject | null;
+
+	deleteError?: KeyedObject | null;
+	deleteSuccess?: KeyedObject | null;
+
+	getOneLoading?: boolean;
+	getOneError?: KeyedObject | null;
+	getOneSuccess?: KeyedObject | null;
+
+	getParaLoading?: boolean;
+	getParaError?: KeyedObject | null;
+	getParaSuccess?: KeyedObject | null;
+
+	getOneDetLoading?: boolean;
+	getOneDetError?: KeyedObject | null;
+	getOneDetSuccess?: KeyedObject | null;
+
+	[key: string]: any;
+};
+
+export interface CompanysActionProps {
+	type: string;
+	payload?: companysState;
+}
+
+export type ContainerState = companysState;

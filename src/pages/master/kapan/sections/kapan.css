@@ -1,0 +1,154 @@
+.test {
+	display: flex;
+	margin-left: 70px;
+	width: 100%;
+}
+.margin-bottom {
+	margin-bottom: 4px;
+}
+.gap {
+	margin-left: 106px;
+}
+.gap1 {
+	margin-left: 153.5px;
+}
+.zodErrorHide p{
+    display: none;
+}
+
+.MuiInputAdornment-root
+	.MuiInputAdornment-positionEnd
+	.MuiInputAdornment-outlined
+	.MuiInputAdornment-sizeMedium
+	.css-1laqsz7-MuiInputAdornment-root {
+	margin: 0;
+}
+
+.MuiCheckbox-root:hover {
+	background-color: transparent !important;
+}
+
+.custom-checkbox-label {
+	color: #262626;
+	font-weight: 600;
+	color: #262626;
+}
+.isactive-margin {
+	margin-left: 6.2rem;
+}
+
+.custom-textfield input {
+	height: 4px;
+}
+
+#textfield-margin {
+	margin: 0 !important;
+	padding-top: 11px;
+}
+
+
+.global-custom-row-green {
+	background: #71b9f0 !important;
+}
+
+.global-custom-row-green:hover .InovuaReactDataGrid__cell {
+	background: #71b9f0 !important;
+}
+
+.custom-button {
+	height: 30px;
+	width: 80px;
+	margin-left: 2rem;
+}
+
+#left-margin-btn {
+	margin-left: 15px;
+}
+
+.marginTop {
+	margin-top: 3px;
+}
+
+#scroll-container {
+	width: 1240px;
+	padding-left: 5px;
+}
+
+.MuiPaper-root .MuiTabs-root {
+	min-height: 17px !important;
+}
+.MuiTab-root {
+	min-height: 13px !important;
+	padding: 6px 16px;
+}
+.MuiTab-root.Mui-selected {
+	background-color: #c8ddfd !important;
+}
+.MuiTabs-indicator {
+	display: none;
+}
+
+.fieldset-size {
+	width: 1046px;
+	padding-top: 8px !important ;
+	/* margin-bottom: 4px; */
+	border: 1px solid #d9cbcbbf;
+	border-radius: 5px;
+	margin-left: 2rem;
+	border-bottom: none;
+}
+.fieldset-size legend {
+	color: red;
+	font-weight: bolder;
+}
+
+.fieldset-size-Kapan {
+	width: 1046px;
+	padding-top: 8px !important ;
+	border: 1px solid #d9cbcbbf;
+	border-radius: 5px;
+	margin-left: 2rem;
+	margin-top: -8px;
+	/* border-bottom: none; */
+}
+.fieldset-size-Kapan legend {
+	color: red;
+	font-weight: bolder;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	display: none;
+}
+/* input[type='number'] {
+	-moz-appearance: textfield;
+} */
+
+.disabled-textfield {
+	background-color: #f0f0f0;
+}
+.disabled-textfield :hover {
+	cursor: no-drop;
+}
+:disabled {
+	color: black !important;
+	-webkit-text-fill-color: black !important;
+}
+
+.custom-button.save-button {
+	background-color: #f0f0f0;
+}
+
+.custom-button.disabled:hover {
+	cursor: no-drop;
+}
+
+.commentstop {
+	margin-top: -23px;
+}
+.css-1lalplm .MuiOutlinedInput-root .MuiAutocomplete-input {
+	padding: 7.5px 0px 7.5px 0px;
+}
+.css-f1cpow-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {
+	padding: 7.5px 0px 7.5px 0px;
+}

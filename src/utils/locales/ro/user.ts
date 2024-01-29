@@ -1,0 +1,20 @@
+export const user = {
+	Username: 'Nume de utilizator',
+	Password: 'Parola',
+	FirstName: 'Nume',
+	LastName: 'Nume',
+	Company: 'Companie',
+	Email: 'E-mail',
+	'Caps-lock-on': 'Caps lock activat !',
+	Login: 'Log in',
+	'Create-account': 'Creează cont',
+	UserProfile: 'Profil utilizator',
+	OldPassword: 'Parola veche',
+	NewPassword: 'Parolă Nouă',
+	ConfirmPassword: 'Confirmă parola',
+	Avatar: 'Avatar',
+	Personal: 'Personal',
+	DOB: 'Data nașterii',
+	MobileNumber: 'Număr de telefon mobil',
+	Name: 'Nume'
+};

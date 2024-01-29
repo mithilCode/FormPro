@@ -1,0 +1,37 @@
+body{line-height: 'normal' !important;}
+@media (min-width: 1440px){
+.css-yevak5-MuiContainer-root,.MuiContainer-maxWidthXl {max-width: 100% !important;}}
+.InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__header{background: #c9c9c9 !important;}
+.InovuaReactDataGrid--theme-default-light{border: 1px solid #e4e3e2;}
+.InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__cell:not(.InovuaReactDataGrid__cell--no-padding), .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__column-header__content, .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__footer-row-cell, .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__header-group__title, .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__locked-row-cell, .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__nested-cell, .InovuaReactDataGrid--theme-default-light .InovuaReactDataGrid__nested-group-cell{
+    padding: 1px !important;
+}
+.InovuaReactDataGrid,.InovuaReactDataGrid__cell__content,.InovuaReactDataGrid__cell__content p{font-size: 12px !important;color:#2a2c2e!important;}
+.InovuaReactDataGrid__cell p{padding: 1px !important;}
+.MuiTypography-root,select{font-size: 12px !important;}
+select {height: 22px !important;font-family: 'Public Sans',sans-serif !important;}
+.MuiAutocomplete-listbox {position: absolute !important;background: white !important;padding: 2px !important;border: 1px rgb(8, 1, 1)!important; font-weight: 600 !important;}
+.MuiAutocomplete-option{padding: 1px 5px !important;font-size: 12px !important;}
+.MuiOutlinedInput-root{padding: 2px 2px !important;}
+.MuiInputBase-input{padding: 7.5px 4px 7.5px 5px; font-size: 12px !important;}
+.InovuaReactDataGrid .InovuaReactDataGrid__cell .MuiInputBase-input,.InovuaReactDataGrid__cell__selection{padding: 4px 1px 5px !important;font-size: 12px !important;}
+
+/* .MuiPaper-root{} */
+.InovuaReactDataGrid__header-group__title,.InovuaReactDataGrid__column-header__content,.InovuaReactDataGrid__footer-row-cell{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+}
+.InovuaReactDataGrid__footer-row-cell{display: flex;justify-content: flex-end !important;}
+
+.MuiGrid-root:focus-visible,
+.MuiPaper-root:focus-visible,
+.MuiContainer-root:focus-visible {outline: none;}
+
+.InovuaReactDataGrid__row-cell-wrap:has(.InovuaReactDataGrid__cell__selection){background-color: #dee1f2 !important;}
+.MuiContainer-root{padding: 0 !important;}
+
+/* DatePicker Calender change CSS */
+.MuiInputAdornment-root .MuiSvgIcon-root{margin-right: 10px !important;width: 18px !important;height: 18px !important;}
+  

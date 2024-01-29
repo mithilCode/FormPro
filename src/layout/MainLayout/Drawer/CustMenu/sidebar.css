@@ -1,0 +1,26 @@
+.link-text{
+        margin-left: 30px;
+        font-size:14px;
+        color: #333;
+        transition: color 0.3s;
+        text-decoration: none;
+        display: inline-block;
+        position: relative; 
+}
+.link-text::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; /* Initial width set to 0 */
+    height: 2px;
+    background-color: coral;
+    transition: width 0.3s ease-in-out;
+}
+.link-text:hover {
+    font-weight: bold;
+    color: navy;
+}
+.link-text:hover::before {
+    width: 100%;
+}

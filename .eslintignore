@@ -1,0 +1,73 @@
+# dependencies
+/node_modules
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# testing
+/coverage
+
+# production
+build/
+dist/
+public/
+
+/lambda/
+/scripts
+/config
+.history
+dist
+build
+.umi
+mock
+
+
+# misc
+.DS_Store
+.env
+.env.development
+.env.test
+.env.production
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE files
+.idea
+
+# generated files
+/public/themes
+
+
+# dependencies
+node_modules/
+.yarn/
+
+package-lock.json
+yarn.lock
+
+# webpack
+webpack.config.js
+webpack.common.js
+webpack.prod.js
+*.test.js
+
+# ide
+.vscode/
+
+# react-native
+android/
+ios
+
+# external
+purge-tailwindcss.js
+tailwind.config.js
+
+# JSON SERVER
+db.json
+routes.json

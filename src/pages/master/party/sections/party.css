@@ -1,0 +1,89 @@
+/* remove chekcbox hover */
+.MuiCheckbox-root:hover {background-color: transparent !important;  }
+/* .MuiCheckbox-root{border: none in !important; outline: none !important;} */
+
+/* checkbox css */
+.custom-checkbox-label {color: #262626;font-weight: 600;color: #262626;}
+.isactive-margin{margin-left: 6.2rem;}
+/* .checkbox-hight{height: 8px;} */
+
+/* textfield css */
+.custom-textfield input{ height: 4px;  }
+/* .custom-textfieldcomments input{ height: 30px;  } */
+#textfield-margin{margin: 0 !important;padding-top: 11px;}
+
+/* price textfield */
+.custom-pricetextfield input{ height: 4px; min-width: 100px !important;  }
+.global-custom-row-green {background: #71b9f0 !important;}
+
+/* .global-custom-row-green:hover, */
+.global-custom-row-green:hover .InovuaReactDataGrid__cell {background: #71b9f0 !important;}
+
+/* button css */
+.custom-button{height: 30px;width: 80px;}
+.margin-btn-specific{margin-left: 5px;}
+#left-margin-btn{margin-left: 15px;}
+.Address-button{ width: 120px;}
+
+/* address div css for list  */
+#Address-div-blank{position: absolute; width: 120px;height: fit-content; border-radius: 2px; text-align: center;} 
+
+/* UL tag decoration remove css */
+.list-view{margin: 4px 4px;}
+
+/* footer button css */
+.address-btn-left{margin-left: 10px; }
+
+/* css for margin */
+.marginTop{margin-top: 5px;}
+.marginTop{margin-top: 10px;} 
+
+/* dropdown css */
+.dropdown-change{height: 25px;width: 140px;}
+
+
+/* tabs css */
+.MuiPaper-root .MuiTabs-root {min-height: 17px !important;}
+.MuiTab-root {min-height: 13px !important;padding : 6px 16px;}
+.MuiTab-root.Mui-selected {background-color: #c8ddfd !important;}
+.MuiTabs-indicator {display: none;}
+
+/* fieldSet and legend css */
+.fieldset-size{padding-top:8px !important ;margin-bottom:4px;border: 1px solid rgb(217 203 203 / 75%);border-radius: 5px;border-bottom: none;}
+.fieldset-size-document{padding-top:8px !important ;margin-bottom: 4px;border: 1px solid rgb(217 203 203 / 75%);border-radius: 5px;}
+.fieldset-size-second{border: 1px solid rgb(217 203 203 / 75%);padding-top:0px;border-radius: 5px;border-bottom: none}
+.fieldset-size-document legend{color: red;font-weight: bolder; position: relative;}
+.fieldset-size legend{color: red;font-weight: bolder; position: relative;}
+.fieldset-size-second legend{color: red;font-weight: bolder;}
+
+/* disabel spiner for number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {display: none;}
+input[type=number] {-moz-appearance: textfield;}
+
+.address{position: relative;float: right;top: -273px;left: -185px;}
+.selected{margin-left: -34px;margin-top: 124px;height: 23px;min-width: 1px;}
+
+.disabled-textfield {background-color: #f0f0f0; }
+.disabled-textfield :hover{cursor: no-drop;}
+:disabled {color: black !important;-webkit-text-fill-color:black !important;}
+
+
+.custom-button.save-button {background-color: #f0f0f0;}
+  
+  /* Remove cursor sign on hover for disabled buttons */
+  .custom-button.disabled:hover {cursor: no-drop;}
+
+  .commentstop{
+    margin-top: -23px;
+  }
+  .css-1lalplm .MuiOutlinedInput-root .MuiAutocomplete-input {padding: 7.5px 0px 7.5px 0px;}
+  .css-f1cpow-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {padding: 7.5px 0px 7.5px 0px;}
+
+  /* Footer Button CSS */
+.footer-main-dev-button{display: flex;justify-content: space-between; width: 450px; margin-top: 5px; }
+
+.partypage_tender_dropdown {right: 30px;}
+
+/* zod error message none css */
+.error-hide-pan p{display: none;}

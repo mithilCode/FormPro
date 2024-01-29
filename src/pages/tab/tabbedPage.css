@@ -1,0 +1,35 @@
+.prev{
+    padding: 5px;
+    /* background-color: #1677ff ; */
+    background-color: #393e47 ;
+    border-radius: 4px;
+    /* margin:0 5px ; */
+    border-right: 1px solid white;
+    border-left: 1px solid #177bd2;
+}
+
+.prev.active {
+    background-color: #595b5f; 
+}
+
+.link{
+    text-decoration: none;
+    text-align: center;
+}
+
+.path{
+    color: white;
+    width: max-content;
+}
+
+.cross{
+    color: white;
+    /* margin-left: 25px; */
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.image{
+    height: 19px;
+    margin-right: 7px;
+}

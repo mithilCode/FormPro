@@ -1,0 +1,20 @@
+export const user = {
+	Username: 'Nom d`utilisateur',
+	Password: 'Mot de passe',
+	FirstName: 'Prénom',
+	LastName: 'Nom de famille',
+	Company: 'Entreprise',
+	Email: 'E-mail',
+	'Caps-lock-on': 'Verrouillage des majuscules !',
+	Login: 'Connexion',
+	'Create-account': 'Créer un compte',
+	UserProfile: 'Profil de l`utilisateur',
+	OldPassword: 'ancien mot de passe',
+	NewPassword: 'nouveau mot de passe',
+	ConfirmPassword: 'Confirmez le mot de passe',
+	Avatar: 'Avatar',
+	Personal: 'Personnel',
+	DOB: 'Date de naissance',
+	MobileNumber: 'Numéro de portable',
+	Name: 'Nom'
+};

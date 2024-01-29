@@ -1,0 +1,23 @@
+
+#tenderLot-container .common-auto .MuiInputBase-input {height: 4px;}
+/* .xls-file-para{ } */
+
+/* #textfield-margin{padding-top: 6px;} */
+.custom-textfield input{ height: 4px; }
+.custom-textfield-date input{height: 4px; width: 106px;}
+.custom-textfield-time input{height: 4px; width: 106px;}
+
+.custom-button{height: 30px;width: 95px;}
+
+.custom-button-load{height: 28px;width: 80px;}
+
+.disabled-textfield {background-color: #f0f0f0; }
+.disabled-textfield :hover{cursor: no-drop;}
+
+.custom-button.save-button {background-color: #f0f0f0;}
+  
+/* Remove cursor sign on hover for disabled buttons */
+.custom-button.disabled:hover {cursor: no-drop;}
+
+/* Footer Button CSS */
+.footer-main-dev-button{display: flex;justify-content: space-between; width: 540px; margin-top: 5px; }
